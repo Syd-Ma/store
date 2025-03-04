@@ -1,0 +1,65 @@
+.header{
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 200px;
+    margin-left: 200px;
+    align-items: center;
+    align-content: center;
+}
+
+.name {
+    font-weight: bold;
+    margin-bottom: 5px;
+    display: block;
+    margin-top: 7px;
+
+}
+.img{
+    width: 65px;
+    height: 55px;
+    background-repeat: no-repeat;
+    background-image: url('/header/television.svg');
+}
+.logo{
+    display: flex;
+}
+.ava{
+    background-image: url('/header/ava.png');
+    background-size: cover;
+    background-position: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+.profile{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.profileName{
+    font-weight: bold;
+}
+.cartAndPhone {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.phone {
+    margin-right: 10px;
+    font-weight: bold;
+}
+.cartIcon {
+    margin-right: 10px;
+}
+.cart {
+    display: flex;
+
+}
+.total {
+    font-weight: bold;
+}
