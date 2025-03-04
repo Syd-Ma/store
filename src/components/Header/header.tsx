@@ -12,10 +12,10 @@ export default function Header() {
     return (
         <div className="header">
             <div className={"logo"}>
-                <div className={"img"}>ff</div>
+                <div className={"img"}></div>
                 <div className={"n"}>
-                <div className={"name"}>React Killer</div>
-                <div className={"underName"}>Gadgets of your dream</div>
+                    <div className={"name"}>React Killer</div>
+                    <div className={"underName"}>Gadgets of your dream</div>
                 </div>
             </div>
             <div className={"profile"}>
