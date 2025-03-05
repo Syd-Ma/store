@@ -11,20 +11,6 @@ interface Item {
     price: string;
 }
 
-
-
-
-    const items: Item[] = [
-        {
-            id: 1,
-            name: "Xiaomi mi 11 lite",
-            description: ['Diag', 'Screen', 'Cam', 'Acum'],
-            characteristics: ['6.55"', 'AMOLED ', '64 Мп', '4250 mAh'],
-            price: "15000 UAH",
-            img: "/items/xiaomi.svg"
-        },
-    ];
-
     const ProductItem: React.FC<{ item: Item }> = ({item}) => {
         return (
             <div key={item.id} className="freshItem">
@@ -46,7 +32,10 @@ interface Item {
                         </ul>
                     </div>
                 </div>
+                <div className={"priceAndArrow"}>
                 <div className="freshItemPrice">{item.price}</div>
+                <div className={"arr"}><img src="/icons/arrow.svg" /></div>
+                </div>
             </div>
         );
     };
