@@ -7,7 +7,7 @@
     margin-left: 200px;
     align-items: center;
     align-content: center;
-    margin-top: 25px;
+    margin-top: 15px;
 }
 
 .name {
@@ -15,16 +15,16 @@
     margin-bottom: 5px;
     display: block;
     margin-top: 7px;
-    font-size: 20px;
+    font-size: 16px;
 }
 .underName {
     margin-top: 7px;
-    font-size: 20px;
+    font-size: 16px;
 }
 .img{
-    width: 75px;
+    width: 65px;
     margin-right: 5px;
-    height: 65px;
+    height: 55px;
     background-repeat: no-repeat;
     background-image: url('/header/television.svg');
     background-size: cover;
@@ -36,8 +36,8 @@
     background-image: url('/header/ava.png');
     background-size: cover;
     background-position: center;
-    width: 75px;
-    height: 75px;
+    width: 50px;
+    height: 50px;
     border-radius: 50%;
     margin-right: 5px;
 }
@@ -49,13 +49,14 @@
 }
 .profileName{
     font-weight: bold;
-    font-size: 45px;
+    font-size: 32px;
 }
 .cartIcon{
     font-size: 30px;
 
 }
 .cartAndPhone {
+    margin-top: 10px;
     display: flex;
     align-items: center;
     justify-content: center;
