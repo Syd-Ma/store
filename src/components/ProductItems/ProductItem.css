@@ -1,4 +1,5 @@
 .freshItem {
+    min-width: 260px;
     width: 260px;
     height: 490px;
     background-color: #ffffff;
@@ -75,4 +76,11 @@
     width: calc(25% - 20px);
     background: #ffffff;
     text-align: center;
+}
+@media (max-width: 1430px) {
+    .freshItem {
+        width: calc(50% - 20px);
+        background: #ffffff;
+        text-align: center;
+    }
 }

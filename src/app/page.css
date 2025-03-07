@@ -8,125 +8,161 @@
     padding:0;
     width:100%;
 }
-.adSlider{
-    display: flex;
-    justify-content: space-between;
-    margin-top: 35px;
-
-}
-.adMainText{
-    font-weight: 900;
-    font-size: 36px;
-    margin-bottom: 25px;
-    width: 480px;
-}
-.adText{
-    font-size: 16px;
-    font-weight: 300;
-    margin-bottom: 25px;
-    width: 400px;
-}
-.adBuyButton{
-    width:250px;
-    height:50px;
-    border:none;
-    background-color:#DE3D64;
-    color:#fff;
-    font-weight:800;
-    font-size: 16px;
 
 
-}
-.adTextPart{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    margin-left: 200px;
-    margin-bottom: 130px;
-    align-items: flex-start;
+    .adSlider{
+        display: flex;
+        justify-content: center;
+        margin-top: 35px;
 
-}
-.adImgPart{
-    background-image: url('/items/drone.svg');
-    margin-right: 0;
-    width: 900px;
-    height: 600px;
-    background-repeat: no-repeat;
-    background-position: left;
-    background-size: cover;
-}
+    }
+    .adMainText{
+        font-weight: 900;
+        font-size: 36px;
+        margin-bottom: 25px;
+        width: 480px;
+    }
+    .adText{
+        font-size: 16px;
+        font-weight: 300;
+        margin-bottom: 25px;
+        width: 400px;
+    }
+    .adBuyButton{
+        width:250px;
+        height:50px;
+        border:none;
+        background-color:#DE3D64;
+        color:#fff;
+        font-weight:800;
+        font-size: 16px;
 
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-.fresh{
-    margin-top: 50px;
-    margin-right: 190px;
-    margin-left: 190px;
-}
-.freshMainText{
-    font-weight: 900;
-    font-size: 25px;
-    margin-left: 200px;
-    margin-top: 70px;
-}
-.banners{
-    margin-top: 150px;
-    display: flex;
-    flex-direction: row;
-    align-content: start;
-    margin-left: 200px;
-    margin-right: 200px;
-    margin-bottom: 50px;
-}
-.banner1{
-    background-image: url('/items/banner.svg');
-    width: 650px;
-    height: 570px;
-    margin-right: 30px;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: contain;
-}
-.banner2{
-    background-image: url('/items/banner2.svg');
-    width: 650px;
-    height: 570px;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: contain;
-}
-.catalog, .fresh {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
-    justify-content: center;
-}
-.catalog{
-    margin-top: 50px;
-}
-.aboutUs{
-    display: flex;
-    align-content: space-between;
-    flex-direction: row;
-    margin-left: 200px;
-    margin-right: 200px;
-    margin-bottom: 150px;
-    margin-top: 70px;
 
-    gap: 100px;
-}
-.aboutUsText{
-    display: flex;
-    gap: 35px;
-    align-items: center;
-}
-.boldText{
-    font-weight: 900;
-    font-size: 50px;
-}
-.notBoldText{
-    font-size: 14px;
+    }
+    .adTextPart{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-bottom: 130px;
+        align-items: flex-start;
+
+    }
+    .adImgPart{
+        background-image: url('/items/drone.svg');
+        margin-right: 0;
+        width: 915px;
+        height: 600px;
+        background-repeat: no-repeat;
+        background-position: left;
+        background-size: cover;
+    }
+
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    .fresh{
+        margin-top: 50px;
+        margin-right: 190px;
+        margin-left: 190px;
+    }
+    .freshMainText{
+        font-weight: 900;
+        font-size: 25px;
+        margin-left: 200px;
+        margin-top: 70px;
+    }
+    .banners{
+        margin-top: 150px;
+        display: flex;
+        flex-direction: row;
+        align-content: start;
+        margin-left: 200px;
+        margin-right: 200px;
+        margin-bottom: 50px;
+    }
+    .banner1{
+        background-image: url('/items/banner.svg');
+        width: 650px;
+        height: 570px;
+        margin-right: 30px;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+    }
+    .banner2{
+        background-image: url('/items/banner2.svg');
+        width: 650px;
+        height: 570px;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+    }
+    .catalog, .fresh {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+        justify-content: center;
+    }
+    .catalog{
+        margin-top: 50px;
+    }
+    .aboutUs{
+        display: flex;
+        align-content: space-between;
+        flex-direction: row;
+        margin-left: 200px;
+        margin-right: 200px;
+        margin-bottom: 150px;
+        margin-top: 70px;
+
+        gap: 100px;
+    }
+    .aboutUsText{
+        display: flex;
+        gap: 35px;
+        align-items: center;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .boldText{
+        font-weight: 900;
+        font-size: 50px;
+    }
+    .notBoldText{
+        font-size: 14px;
+    }
+
+@media (max-width: 1500px) {
+    .adSlider {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .adSlider {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .adTextPart {
+        width: 100%;
+        max-width: 860px;
+        align-items: flex-start;
+        margin-left: 0;
+        margin-top: 70px;
+    }
+
+    .adImgPart {
+        width: 860px;
+        height: 545px;
+        background-image: url('/items/drone2.svg');
+
+    }
+    .catalog, .fresh{
+        max-width: 860px;
+        margin-right: auto;
+        margin-left: auto;
+
+    }
 }
