@@ -45,6 +45,7 @@
         justify-content: center;
         margin-bottom: 130px;
         align-items: flex-start;
+        margin-left: 100px;
 
     }
     .adImgPart{
@@ -73,32 +74,6 @@
         margin-left: 200px;
         margin-top: 70px;
     }
-    .banners{
-        margin-top: 150px;
-        display: flex;
-        flex-direction: row;
-        align-content: start;
-        margin-left: 200px;
-        margin-right: 200px;
-        margin-bottom: 50px;
-    }
-    .banner1{
-        background-image: url('/items/banner.svg');
-        width: 650px;
-        height: 570px;
-        margin-right: 30px;
-        background-repeat: no-repeat;
-        background-position: center;
-        background-size: contain;
-    }
-    .banner2{
-        background-image: url('/items/banner2.svg');
-        width: 650px;
-        height: 570px;
-        background-repeat: no-repeat;
-        background-position: center;
-        background-size: contain;
-    }
     .catalog, .fresh {
         display: flex;
         flex-wrap: wrap;
@@ -123,7 +98,6 @@
         display: flex;
         gap: 35px;
         align-items: center;
-        flex-wrap: wrap;
         justify-content: center;
     }
     .boldText{
@@ -152,6 +126,14 @@
         margin-left: 0;
         margin-top: 70px;
     }
+    .freshMainText{
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+        max-width: 860px;
+        align-items: flex-start;
+        margin-top: 70px;
+    }
 
     .adImgPart {
         width: 860px;
@@ -163,6 +145,104 @@
         max-width: 860px;
         margin-right: auto;
         margin-left: auto;
+    }
+    .aboutUs{
+        flex-wrap: wrap;
+        max-width: 860px;
+        justify-content: flex-start;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+@media (max-width: 1000px) {
+    .adImgPart{
+        width: 100%;
+        max-width: 700px;
+        height: 450px;
+    }
+    .catalog, .fresh{
+        max-width: 710px;
+    }
+    .freshMainText{
+        max-width: 700px;
+    }
+    .aboutUs{
+        max-width: 700px;
+    }
+    .adTextPart{
+        max-width: 700px;
+    }
+}
+@media (max-width: 720px) {
+    .adTextPart{
+        max-width: 550px;
+    }
+    .adImgPart{
+        width: 100%;
+        max-width: 550px;
+        height: 300px;
+    }
+    .catalog, .fresh{
+        max-width: 560px;
+    }
+    .freshMainText{
+        max-width: 550px;
+    }
+    .aboutUs{
+        max-width: 550px;
+    }
+}
+@media (max-width: 570px) {
+    .adImgPart{
+        margin-left: 30px;
+        margin-right: 30px;
+        height: 700px;
+        width: 400px;
+        background-image: url('/items/drone3.svg');
+        background-size: cover;
+        background-position: center;
+    }
+    .adMainText{
+        font-size: 25px;
+        width: 280px;
+    }
+    .adText{
+        font-size: 14px;
+        width: 280px;
+    }
+    .catalog, .fresh{
+        max-width: 410px;
+    }
+    .freshMainText{
+        max-width: 400px;
+        font-size: 25px;
+    }
+    .aboutUs{
+        max-width: 400px;
+    }
+}
+@media (max-width: 570px) {
+    .adMainText{
+        width: 220px;
+    }
+    .adText{
+        width: 220px;
+    }
+    .adImgPart {
+        height: 450px;
+        width: 260px;
+    }
+    .catalog, .fresh{
+        max-width: 260px;
+    }
+    .freshMainText{
+        max-width: 260px;
+    }
+    .aboutUs{
+        max-width: 260px;
+    }
+    .adTextPart {
 
+        max-width: 260px;
     }
 }

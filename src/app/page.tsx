@@ -145,10 +145,7 @@ export default function Home() {
                         <ProductItem key={item.id} item={item}/>
                     ))}
                 </div>
-                <div className={"banners"}>
-                    <div className={"banner1"}></div>
-                    <div className={"banner2"}></div>
-                </div>
+
                 <div className={"freshMainText"}>Catalog</div>
                 <div className="fresh">
 
