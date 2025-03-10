@@ -23,7 +23,7 @@ export default function Header() {
                 <div className={"profileName"}>Profile Name</div>
             </div>
             <div className={"cartAndPhone"}>
-                <div className={"phone"}>+380 97 407 1505</div>
+                <div className={"phone"}></div>
                 <div className={"cart"}>
                     <div className={"cartIcon"}><SlBasket /></div>
                     <div className={"total"}>{total} UAH</div>
